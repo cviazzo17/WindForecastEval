@@ -17,6 +17,5 @@ build/
 
 testing.py
 data_asfloat32.py
-**/data
 **/notebooks_plotting
 **/img

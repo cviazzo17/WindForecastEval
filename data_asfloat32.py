@@ -3,7 +3,7 @@
 import os
 import numpy as np
 
-path_in = "./data_float32"
+path_in = "./data"
 path_out = "./data"
 
 list_files = os.listdir(path_in)
@@ -18,9 +18,9 @@ for file in list_files:
     lon = data["longitude"]
     lat = data["latitude"]
 
-    u10m = u10m.astype("float16")
-    v10m = v10m.astype("float16")
+    u10m = u10m.astype("float32")
+    v10m = v10m.astype("float32")
     ws10m = u10m**2 + v10m**2
 
     full_name_out = os.path.join(path_out, file)
-    np.savez(full_name_out, U10M=u10m, V10M=v10m, W10M=ws10m, latitude=lat, longitude=lon)
+    np.savez(full_name_out, W10M=ws10m, latitude=lat, longitude=lon)
