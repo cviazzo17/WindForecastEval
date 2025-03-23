@@ -2,6 +2,8 @@
 **/*.pyc
 **/*.pyo
 
+**/.Rhistory
+
 venv/
 env/
 
@@ -20,3 +22,4 @@ testing_2.py
 data_asfloat32.py
 **/notebooks_plotting
 **/img
+**/.ipynb_checkpoints
