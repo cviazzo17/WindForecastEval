@@ -40,18 +40,18 @@ def cross_validation(forecast_arr, func_statistic, n_statistic, window_width=1):
     Returns:
         numpy.ndarray: Array of shape (year, gridpoint, statistic) with computed statistics
     """
-    n_year = forecast_arr[0]
-    n_point = forecast_arr[1]
+    n_year = forecast_arr.shape[0]
+    n_point = forecast_arr.shape[1]
     result = np.full((n_year, n_point, n_statistic), np.nan)
 
     for year in range(n_year):
         window_idx = np.arange(year - window_width, year + window_width + 1)
         if year == 0:
-            window_idx = np.arange(0, window_idx * 2 + 1)
+            window_idx = np.arange(0, window_width * 2 + 1)
         if year == (n_year - 1):
-            window_idx = np.arange(year - window_idx * 2, n_year)
+            window_idx = np.arange(year - window_width * 2, n_year)
         data_partial = np.delete(forecast_arr, window_idx, axis=0)
 
-        for point in n_point:
+        for point in range(n_point):
             result[year, point, :] = func_statistic(data_partial[:, point])
     return result
