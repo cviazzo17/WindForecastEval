@@ -12,7 +12,7 @@ This repository contains the scripts and data used in a study on the predictabil
 ## Methods
 
 ### Interpolation
-Processed data has a common grid of 1.0°x1.0°, corresponding to retrived SEAS5 horizontal resolution, the coarser resolution of the raw datasets. CFSv2 and MERRA2 data was interpolated using the `scipy.interpolate` function `RectBivariateSpline`.
+Processed data has a common grid of 1.0°x1.0°, corresponding to the retrieved SEAS5 horizontal resolution, which is the coarser resolution of the raw datasets. CFSv2 and MERRA2 data were interpolated using the `scipy.interpolate` function `RectBivariateSpline`.
 
 ### Predictability assessment
 The functions used for predictability analysis are located in `py/predictability.py`, while their execution and visualization are performed in `ipynb/predictability/`.
