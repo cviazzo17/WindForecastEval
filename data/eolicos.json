@@ -1,0 +1,939 @@
+{
+   "San Jorge y EL Mataco":
+  {
+  "Desarrollo": "PCR",
+  "Potencia": 203.4,
+  "Generadores": "Vestas V117 4.2",
+  "Cantidad": 24,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Tornquist",
+  "Lat": [-38.29, -62.24],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 2": 203.4,
+  "Precio [usd]": 40.27,
+  "Inicio": "2020-7",
+  "url":  ["https://ninanegra.com/pcr/renovables/","https://econojournal.com.ar/2020/07/entraron-en-operacion-comercial-dos-parques-eolicos-en-la-provincia-de-bueno-aires/"]
+  },
+
+  "Los Teros":
+  {
+  "Desarrollo": "YPF",
+  "Potencia": 122.56,
+  "Generadores": "General Electric",
+  "Cantidad": 45,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Azul",
+  "Lat": [-37.13, -59.77],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 122.56,
+  "FC declarado": 0.55,
+  "Inicio": "2021-6",
+  "url": ["https://www.ypfluz.com/Noticias/NoticiaCompleta/40","https://econojournal.com.ar/2021/06/ypf-luz-finalizo-el-parque-eolico-los-teros-con-una-capacidad-total-de-175-mw/"]
+  },
+  "Los Teros 2":
+  {
+  "Desarrollo": "YPF",
+  "Potencia": 52.39,
+  "Generadores": "General Electric",
+  "Cantidad": 45,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Azul",
+  "Lat": [-37.13, -59.77],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 122.56,
+  "Inicio": "2021-6",
+  "url": ["https://www.ypfluz.com/Noticias/NoticiaCompleta/40","https://econojournal.com.ar/2021/06/ypf-luz-finalizo-el-parque-eolico-los-teros-con-una-capacidad-total-de-175-mw/"]
+  },
+
+  "La Castellana":
+  {
+  "Desarrollo": "Central Puerto",
+  "Potencia": 100.8,
+  "Generadores": "Vestas V126/3450",
+  "Cantidad": 32,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Mayor Buratovich",
+  "Lat": [-38.63322417566118, -62.71045485231824],
+  "Gmaps": "no",
+  "Estado": "Operando",
+  "Renovar 1": 100.8,
+  "Inicio": "2018-8",
+  "url":  ["thewindpower", "https://www.centralpuerto.com/en/lugares/central-puerto-renovables-parque-eolico-la-castellana-2/"]
+  },
+
+  "La Castellana 2":
+  {
+  "Desarrollo": "Central Puerto",
+  "Potencia": 15.2,
+  "Generadores": "Vestas V126/3450",
+  "Cantidad": 4,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Mayor Buratovich",
+  "Lat": [-38.6178093, -62.7627806],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 15.2,
+  "Inicio": "2019-8",
+  "url":  ["thewindpower", "https://masindustrias.com.ar/castellana-ii-luego-de-castellana-y-antes-de-la-genoveva/"]
+  },
+
+
+  "Corti":
+  {
+  "Otro Nombre": "Ingeniero Mario Cebreiro",
+  "Desarrollo": "Pampa Energía",
+  "Obs": "era el de ct loma de la lata?",
+  "Potencia": 100,
+  "Generadores": "Vestas V126/3450",
+  "Cantidad": 29,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Corti",
+  "Lat": [-38.66754728573716, -62.03465854264486],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1": 100,
+  "Inicio": "2018-6",
+  "url": ["https://www.cronista.com/negocios/energias-renovables-pampa-invertira-us-120-millones-para-ampliar-un-parque-eolico/"]
+  },
+
+
+
+  "La Genoveva II":
+  {
+  "Desarrollo": "Central Puerto",
+  "Potencia": 41.8,
+  "Generadores": "Vestas V136/4000-4200",
+  "Cantidad": 11,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Cochrane",
+  "Lat": [-38.572, -61.9455],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 41.8,
+  "Inicio": "2019-9",
+  "url":  ["https://econojournal.com.ar/2020/12/central-puerto-habilito-el-parque-eolico-la-genoveva-i-en-bahia-blanca/","https://www.centralpuerto.com/es/lugares/parque-eolico-la-genoveva/","https://www.energiaestrategica.com/la-genoveva-de-central-puerto-entro-en-operacion-comercial-el-parque-eolico-numero-30-de-argentina/"]
+  },
+
+  "La Genoveva I":
+  {
+  "Desarrollo": "Central Puerto",
+  "Potencia": 88.2,
+  "Generadores": "Vestas V136/4000-4200",
+  "Cantidad": 23,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Cochrane",
+  "Lat": [-38.572, -61.9455],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 2": 87,
+  "Inicio": "2020-12",
+  "url":  ["https://econojournal.com.ar/2020/12/central-puerto-habilito-el-parque-eolico-la-genoveva-i-en-bahia-blanca/","https://www.centralpuerto.com/es/lugares/parque-eolico-la-genoveva/","https://www.energiaestrategica.com/la-genoveva-de-central-puerto-entro-en-operacion-comercial-el-parque-eolico-numero-30-de-argentina/"]
+  },
+
+  "Miramar":
+  {
+  "Desarrollo": "Goldwind",
+  "Potencia": 98.6,
+  "Generadores": "Goldwind GW140/3000",
+  "Cantidad": 29,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Miramar",
+  "Lat": [-38.22621416631258, -58.03772330246479],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1.5": 100,
+  "Inicio": "2020-12",
+  "url": ["https://www.ambito.com/energia/energia/inauguran-parque-eolico-miramar-generara-100-megas-potencia-n5153927"]
+  },
+
+
+
+
+  "Villalonga":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 51.75,
+  "Generadores": "Vestas V126/3450",
+  "Cantidad": 16,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Villalonga",
+  "Lat": [-40.0398771, 62.6596587],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1": 50,
+  "Inicio": "2019-3",
+  "url":  ["thewindpower"]
+  },
+"Villalonga 2":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 3.45,
+  "Generadores": "Vestas V126/3450",
+  "Cantidad": 16,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Villalonga",
+  "Lat": [-40.0398771, 62.6596587],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 3.2,
+  "Inicio": "2019-3",
+  "url":  ["thewindpower"]
+  },
+  "Vientos del Secano":
+  {
+  "Desarrollo": "Envision Energy",
+  "Potencia": 50,
+  "Generadores": "Envision 2.5-110",
+  "Cantidad": 20,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Villarino",
+  "Lat": [-39.2131646722018, -62.5682680972242],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1": 50,
+  "Inicio": "2020-11",
+  "url":  ["thewindpower", "http://www.villarino.gob.ar/2020/11/26/bevilacqua-inauguro-el-segundo-parque-eolico-en-villarino/","https://www.ambito.com/energia/energias-renovables/inauguran-un-nuevo-parque-eolico-el-partido-bonaerense-villarino-n5150441"]
+  },
+
+
+  "García del Río":
+  {
+  "Desarrollo": "Envision",
+  "Potencia": 10,
+  "Generadores": "Envision 2.5-110",
+  "Cantidad": 4,
+  "Provincia": "Buenos Aires",
+  "Localidad": "García del Río",
+  "Lat": [-38.406218597834076, -62.25948807752058],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1": 10,
+  "Inicio": "2019-11",
+  "url":  "https://ninanegra.com/pcr/renovables/"
+   },
+
+
+
+   "Energética":
+  {
+  "Otro Nombre": "Tres Picos",
+  "Desarrollo": "AES",
+  "Potencia": 79.8,
+  "Generadores": "Nordex N100/3300",
+  "Cantidad": 30,
+  "Provincia": "Buenos Aires",
+  "Localidad": "García del Río",
+  "Lat": [-38.33, -62.29],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 2": 79.8,
+  "Inicio": "2019-8",
+  "Obs": "muy poca información sobre este parque, los datos pueden ser incorrectos, renovar 1 no adjudicado",
+  "url":  ["https://econojournal.com.ar/2018/04/aes-invertira-us-140-millones-para-construir-un-parque-eolico/","https://tornquist.gob.ar/home-page/agencia-de-desarrollo/parques-eolicos/","https://www.elorden.com/noticias/2019/07/18/7724-con-seis-aerogeneradores-el-parque-elico-tres-picos-comenzar-a-generar-energia-limpia"]
+   },
+   "Energética 2":
+  {
+  "Otro Nombre": "Tres Picos",
+  "Desarrollo": "AES",
+  "Potencia": 19.95,
+  "Generadores": "Nordex N100/3300",
+  "Cantidad": 30,
+  "Provincia": "Buenos Aires",
+  "Localidad": "García del Río",
+  "Lat": [-38.33, -62.29],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Mater": 20,
+  "Inicio": "2019-8",
+  "Obs": "muy poca información sobre este parque, los datos pueden ser incorrectos, renovar 1 no adjudicado",
+  "url":  ["https://econojournal.com.ar/2018/04/aes-invertira-us-140-millones-para-construir-un-parque-eolico/","https://tornquist.gob.ar/home-page/agencia-de-desarrollo/parques-eolicos/","https://www.elorden.com/noticias/2019/07/18/7724-con-seis-aerogeneradores-el-parque-elico-tres-picos-comenzar-a-generar-energia-limpia"]
+   },
+
+
+
+
+  "Vientos de Necochea":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 37.95,
+  "Generadores": "Vestas V136/3450",
+  "Cantidad": 11,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Necochea",
+  "Lat": [-38.618991819303965, -58.832222508972336],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1.5": 38,
+  "Inicio": "2020-2",
+  "url": ["https://www.cronista.com/apertura/columnistas-apertura/El-Parque-Eolico-Vientos-de-Necochea-de-Genneia-ya-inyecta-energia-al-mercado-20200210-0008.html"]
+  },
+
+
+  "Pampa Energía":
+  {
+  "Desarrollo": "Pampa Energía",
+  "Potencia": 50.4,
+  "Generadores": "Vestas V126/3450",
+  "Cantidad": 15,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Corti",
+  "Lat": [-38.69347438944029, -62.00438788642691],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 50,
+  "Inicio": "2019-3",
+  "url": ["https://www.pampaenergia.com/pampa-inauguro-su-segundo-parque-eolico-en-bahia-blanca/","https://www.lanueva.com/nota/2019-3-16-6-30-9-el-miercoles-quedara-inaugurado-el-segundo-parque-eolico-de-bahia"]
+  },
+
+  "De la Bahía":
+  {
+  "Otro Nombre": "Pampa Energía III",
+  "Desarrollo": "Pampa Energía",
+  "Potencia": 50.4,
+  "Generadores": "Vestas V126/3450",
+  "Cantidad": 14,
+  "Provincia": "Buenos Aires",
+  "Localidad": "Coronel Rosales",
+  "Lat": [-38.760312520880234, -61.76973542901036],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 50,
+  "Inicio": "2019-7",
+  "Obs": "hay proyecto por de la bahía dos, torres de 150m!",
+  "url": ["https://puertobahiablanca.com/novedades/inauguracion-parque-eolico-pampa-iii.html"]
+  },
+
+
+  "Loma Blanca I":
+  {
+  "Desarrollo": "Goldwind/Power China Resource Limited",
+  "Potencia": 51.2,
+  "Generadores": "Goldwind GW140/3000",
+  "Pot. unitaria": 3,
+  "Cantidad": 16,
+  "Provincia": "Chubut",
+  "Localidad": "Trelew",
+  "Lat": [-43.0019088,-65.1250247],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Inicio": "2019-4",
+  "RES 202":50,
+  "url":  ["https://www.thewindpower.net/windfarm_en_30897_loma-blanca-i.php","http://spanish.xinhuanet.com/2021-05/08/c_139931432.htm"]
+  },
+  "Loma Blanca II":
+  {
+  "Desarrollo": "Goldwind/Power China Resource Limited",
+  "Potencia": 51.2,
+  "Generadores": "Goldwind GW140/3000",
+  "Pot. unitaria": 3,
+  "Cantidad": 16,
+  "Provincia": "Chubut",
+  "Localidad": "Trelew",
+  "Lat": [-43.0212396, -65.2165194],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Inicio": "2019-4",
+  "RES 202":50,
+  "url":  ["https://www.thewindpower.net/windfarm_en_30897_loma-blanca-i.php"]
+  },
+  "Loma Blanca III":
+  {
+  "Desarrollo": "Goldwind/Power China Resource Limited",
+  "Potencia": 51.2,
+  "Generadores": "Goldwind GW140/3000",
+  "Pot. unitaria": 3,
+  "Cantidad": 16,
+  "Provincia": "Chubut",
+  "Localidad": "Trelew",
+  "Lat": [-43.0408148, -65.1579827],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Inicio": "2019-4",
+  "RES 202":50,
+  "url":  ["https://www.thewindpower.net/windfarm_en_30897_loma-blanca-i.php"]
+  },
+
+  "Loma Blanca IV":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 50,
+  "Generadores": "Alstom Power 100",
+  "Cantidad": 17,
+  "Provincia": "Chubut",
+  "Localidad": "Trelew",
+  "Lat": [-43.0921, -65.2314],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Genren": 50,
+  "Inicio": "2013-7",
+  "url":  ["https://www.thewindpower.net/windfarm_en_30897_loma-blanca-i.php","wiki"]
+  },
+
+  "Loma Blanca VI":
+  {
+  "Desarrollo": "Goldwind/Power China Resource Limited",
+  "Potencia": 102.4,
+  "Generadores": "Goldwind GW140/3000",
+  "Cantidad": 32,
+  "Provincia": "Chubut",
+  "Localidad": "Trelew",
+  "Lat": [-42.9023255, -65.360864],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "RES 202": 100,
+  "Inicio": "2019-4",
+  "url":  ["https://www.powerchina.com.ar/loma-blanca-miramar.html"]
+  },
+
+  "Aluar 1":
+  {
+  "Desarrollo": "Aluar",
+  "Potencia": 68.4,
+  "Generadores": "Vestas V126 3.6",
+  "Cantidad": 14,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-42.6342, -65.2716],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 50.4,
+  "Inicio": "2019-2",
+  "url":  ["https://www.aluar.com.ar/novedad/se-puso-en-funcionamiento-el-parque-e-lico-aluar"]
+  },
+  "Aluar Autogenerador":
+  {
+  "Desarrollo": "Aluar",
+  "Potencia": 93.6,
+  "Generadores": "Vestas V126 3.6",
+  "Cantidad": 17,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-42.623232491385714, -65.26662510316707],
+  "Gmaps": "no",
+  "Estado": "Operando",
+  "autogeneración": 61.2,
+  "Inicio": "2019-8",
+  "url":  ["https://www.aluar.com.ar/novedad/primer-a-o-de-operaci-n-de-la-etapa-ii-del-parque-e-lico-aluar"]
+  },
+
+
+  "Puerto Madryn 1":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 71.1,
+  "Generadores": "Vestas V136 3.6",
+  "Cantidad": 62,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-42.6949758, -65.2221199],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "RES 202": 70,
+  "Inicio": "2018-12",
+  "url":  ["https://www.thewindpower.net/windfarm_es_30836_puerto-madryn-ii.php"]
+  },
+  "Puerto Madryn 2":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 151.2,
+  "Generadores": "Vestas V136 3.6",
+  "Cantidad": 62,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-42.6949758, -65.2221199],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "RES 202": 70,
+  "Inicio": "2018-12",
+  "url":  ["https://www.thewindpower.net/windfarm_es_30836_puerto-madryn-ii.php"]
+  },
+
+
+  "Rawson 1":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 52.5,
+  "Generadores": "Vestas V90/1800",
+  "Cantidad": 62,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-43.3498, -65.1765],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "GENREN": 77,
+  "Inicio": "2012-1",
+  "url":  ["https://www.thewindpower.net/windfarm_es_30836_puerto-madryn-ii.php"]
+  },
+"Rawson 2":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 31.15,
+  "Generadores": "Vestas V90/1800",
+  "Cantidad": 62,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-43.3498, -65.1765],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "GENREN": 77,
+  "Inicio": "2012-1",
+  "url":  ["https://www.thewindpower.net/windfarm_es_30836_puerto-madryn-ii.php"]
+  },
+
+  "Rawson 3":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 25.05,
+  "Generadores": "Vestas",
+  "Cantidad": 12,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-43.3767228, -65.1892919],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 24,
+  "Obs": "primer contrato de venta de energía renovable entre privados del país (Loma Negra)",
+  "Inicio": "2017-12",
+  "url":  ["https://www.thewindpower.net/windfarm_es_30836_puerto-madryn-ii.php","https://econojournal.com.ar/2018/06/paro-de-luz-y-fuerza-en-el-parque-eolico-rawson/"]
+  },
+
+
+
+  "Chubut Norte":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 28.8,
+  "Generadores": "Vestas V126/3450",
+  "Cantidad": 8,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-42.576391263690645, -65.124310406084],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1": 29,
+  "Inicio": "2018-12",
+  "url":  ["https://www.energiaestrategica.com/como-es-el-parque-eolico-chubut-norte-que-inauguro-ayer-macri/", "https://www.thewindpower.net/windfarm_en_30897_loma-blanca-i.php"]
+  },
+
+  "Chubut Norte  IV":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 83.22,
+  "Generadores": "Nordex N149/4.0-4.5",
+  "Cantidad": 32,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-42.5617, -65.1915],
+  "Gmaps": "no",
+  "Estado": "Operando",
+  "Renovar 2": 140,
+  "Inicio": "2021-3",
+  "url":  ["https://www.thewindpower.net/windfarm_en_30903_chubut-norte-iv.php","https://econojournal.com.ar/2021/02/comenzo-a-operar-el-parque-eolico-chubut-norte-iii-de-las-companias-genneia-y-pae/"]
+  },
+ "Chubut Norte  III":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 57.66,
+  "Generadores": "Nordex N149/4.0-4.5",
+  "Cantidad": 32,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-42.5617, -65.1915],
+  "Gmaps": "no",
+  "Estado": "Operando",
+  "Renovar 2": 140,
+  "Inicio": "2021-3",
+  "url":  ["https://www.thewindpower.net/windfarm_en_30903_chubut-norte-iv.php","https://econojournal.com.ar/2021/02/comenzo-a-operar-el-parque-eolico-chubut-norte-iii-de-las-companias-genneia-y-pae/"]
+  },
+  "Chubut Norte II":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 26.28,
+  "Generadores": "Nordex N149/4.0-4.5",
+  "Cantidad": 6,
+  "Provincia": "Chubut",
+  "Localidad": "Madryn",
+  "Lat": [-42.5617, -65.1915],
+  "Gmaps": "no",
+  "Estado": "Operando",
+  "MATER": 26,
+  "Inicio": "2021-3",
+  "url":  ["https://www.ambito.com/negocios/genneia/comenzo-operar-el-parque-eolico-chubut-norte-ii-n5180321"]
+  },
+
+  "Pomona 1":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 101.4,
+  "Generadores": "Nordex N131/3900",
+  "Cantidad": 26,
+  "Provincia": "Río Negro",
+  "Localidad": "Beltrán",
+  "Lat": [-39.5592365, -65.7414023],
+  "Gmaps": "sí",
+  "Estado": "Operando",
+  "Renovar 1.5": 100,
+  "Inicio": "2019-7",
+  "url":  ["https://www.energias-renovables.com/eolica/rio-negro-el-parque-eolico-pomona-i-20190714","thewindpower"]
+  },
+
+  "Pomona 2":
+  {
+  "Desarrollo": "GENNEIA",
+  "Potencia": 11.7,
+  "Generadores": "Nordex N131/3900",
+  "Cantidad": 3,
+  "Provincia": "Río Negro",
+  "Localidad": "Beltrán",
+  "Lat": [-39.6025677, -65.7797821],
+  "Gmaps": "?",
+  "Estado": "Operando",
+  "MATER": 12,
+  "Inicio": "2019-8",
+  "url":  ["https://econojournal.com.ar/2020/02/genneia-recibe-desembolso-para-sus-parques-eolicos-mater/"]
+  },
+
+  "Vientos Neuquinos 1":
+  {
+  "Desarrollo": "AES",
+  "Potencia": 100.49,
+  "Generadores": "Acciona AW-3465/132",
+  "Cantidad": 29,
+  "Provincia": "Neuquén",
+  "Localidad": "Piedra del Águila",
+  "Lat": [-39.7195, -69.8126],
+  "Gmaps": "sí",
+  "Estado": "Operando",
+  "MATER": 100,
+  "Inicio": "2020-6",
+  "url":  ["https://www.energiaestrategica.com/aes-argentina-inauguro-el-parque-eolico-vientos-neuquinos/", "thewindpower"]
+  },
+
+
+  "La Banderita 1":
+  {
+  "Desarrollo": "Frávega",
+  "Potencia": 39.6,
+  "Generadores": "Vestas V136/3450",
+  "Cantidad": 11,
+  "Provincia": "La Pampa",
+  "Localidad": "Utracán",
+  "Lat": [-37.485881, -64.7631692],
+  "Gmaps": "sí",
+  "Estado": "Operando",
+  "Renovar 1.5": 39,
+  "Inicio": "2019-4",
+  "url":  ["http://www.editorialrn.com.ar/index.php?option=com_content&view=article&id=20790:comenzo-a-funcionar-el-parque-la-banderita-ii&catid=80&Itemid=601"]
+  },
+
+
+
+  "Achiras":
+  {
+  "Desarrollo": "Central Puerto",
+  "Potencia": 48,
+  "Generadores": "Acciona AW-3000/125",
+  "Obs": "mismos equipos que la castellana, distintos que los de la segunda etapa",
+  "Cantidad": 15,
+  "Provincia": "Córdoba",
+  "Localidad": "Achiras",
+  "Lat": [-33.2082074, -65.0900723],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1.5": 48,
+  "Inicio": "2018-9",
+  "url": ["https://www.cprenovables.com.ar/noticias-y-novedades/inauguracion-parque-eolico-achiras-junto-al-presidente-de-la-nacion/","hhttps://cordobainteriorinforma.com/2019/05/03/inauguran-el-parque-eolico-de-achiras/"]
+  },
+
+   "Manque":
+  {
+  "Otro Nombre": "Achiras ii",
+  "Obs": "también llamado parque busweiser",
+  "Desarrollo": "Central Puerto",
+  "Potencia": 57,
+  "Generadores": "Vestas V136/3450",
+  "Cantidad": 15,
+  "Provincia": "Córdoba",
+  "Localidad": "Achiras",
+  "Lat": [-33.2082074, -65.0900723],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Mater": 57,
+  "Inicio": "2019-5",
+  "url": ["https://www.centralpuerto.com/en/lugares/achiras-wind-farm-2/","https://www.revistapetroquimica.com/entraron-en-marcha-cinco-nuevos-proyectos-de-energias-verdes/","https://infonegocios.info/y-ademas/cerveceria-quilmes-y-central-puerto-inauguraron-el-parque-eolico-budweiser-en-achiras-y-utiliza-100-energia-proveniente-de-fuentes-renovables"]
+  },
+
+  "Los Olivos":
+  {
+  "Desarrollo": "Central Puerto",
+  "Potencia": 22.8,
+  "Generadores": "Vestas V136/3450",
+  "Cantidad": 6,
+  "Provincia": "Córdoba",
+  "Localidad": "Achiras",
+  "Lat": [-33.2082074, -65.0900723],
+  "Gmaps": "no",
+  "Estado": "Operando",
+  "Mater": 23,
+  "Inicio": "2020-6",
+  "url": ["https://www.comunicarseweb.com/tags/parque-los-olivos","https://www.revistapetroquimica.com/entraron-en-marcha-cinco-nuevos-proyectos-de-energias-verdes/","https://www.energiaestrategica.com/central-puerto-cerro-un-contrato-a-10-anos-para-vender-energia-eolica-de-su-parque-en-cordoba/"]
+  },
+
+  "Arauco":
+  {
+  "Desarrollo": "Grupo PEA SAPEM",
+  "Potencia": 50.4,
+  "Generadores": "IMPSA IWP-100-2000",
+  "Cantidad": 26,
+  "Provincia": "La Rioja",
+  "Localidad": "Arauco",
+  "Lat": [-28.69940695437789, -66.75461825527326],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "GENREN": 57,
+  "Inicio": "2011-5",
+  "url": ["http://www.informeindustrial.com.ar/verNota.aspx?nota=Inauguraron%20el%20mayor%20parque%20e%C3%B3lico%20de%20la%20Argentina___387","https://www.thewindpower.net/windfarm_es_30702_arauco-iv.php"]
+  },
+
+
+  "Arauco II":
+  {
+  "Desarrollo": "Grupo PEA SAPEM",
+  "Potencia": 99.75,
+  "Generadores": "Siemens-Gamesa SG 2.6-114",
+  "Cantidad": 38,
+  "Provincia": "La Rioja",
+  "Localidad": "Arauco",
+  "Lat": [-28.734747988676173, -66.73230227688991],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1": 100,
+  "Inicio": "2020-3",
+  "url": ["https://econojournal.com.ar/2020/03/entro-en-operacion-comercial-un-parque-eolico-de-100-mw-en-la-rioja/"]
+  },
+
+  "El Jume":
+  {
+  "Desarrollo": "ENERSE - SAPEM",
+  "Potencia": 8,
+  "Generadores": "IMPSA IWP-100-2000 ",
+  "Cantidad": 4,
+  "Provincia": "Santiago del Estero",
+  "Localidad": "Ojo de agua",
+  "Lat": [-29.4182052, -63.7104415],
+  "Estado": "Operando",
+  "Genren": 8,
+  "Inicio": "2017-1",
+  "url":  ["http://melectrico.com.ar/web/index.php?option=com_content&view=article&id=1119%3Ase-inauguro-el-parque-eolico-qel-jumeq-en-santiago-del-estero&catid=1%3Alatest-news&Itemid=1","https://www.energiaestrategica.com/los-proximos-dias-entrara-operaciones-parque-eolico-jume/"]
+   },
+
+  "Del Bicentenario":
+  {
+  "Desarrollo": "PCR",
+  "Potencia": 100.8,
+  "Generadores": "Vestas V117 3.6",
+  "Cantidad": 28,
+  "Provincia": "Santa Cruz",
+  "Localidad": "Jaramillo",
+  "Lat": [-47.2816709, -67.0227096],
+  "Gmaps": "No",
+  "Estado": "Operando",
+  "Renovar 1.5": 100,
+  "Inicio": "2019-3",
+  "Precio [usd]": 49.5,
+  "url":  "https://ninanegra.com/pcr/renovables/"
+   },
+
+  "Del Bicentenario II":
+  {
+  "Desarrollo": "PCR",
+  "Potencia": 25.2,
+  "Generadores": "Vestas V117 3.6",
+  "Cantidad": 7,
+  "Provincia": "Santa Cruz",
+  "Localidad": "Jaramillo",
+  "Lat": [-47.3162314, -66.9703869],
+  "Gmaps": "No",
+  "Estado": "Operando",
+  "MATER": 25,
+  "Inicio": "2019-3",
+  "Precio [usd]": 49.5,
+  "url":  "https://ninanegra.com/pcr/renovables/"
+   },
+
+  "Viento de los Hércules":
+  {
+  "Desarrollo": "Total Eren",
+  "Potencia": 97.2,
+  "Generadores": "Senvion 3.6 M114NES",
+  "Pot. unitaria": 3.6,
+  "Cantidad": 27,
+  "Provincia": "Santa Cruz",
+  "Localidad": "Las Heras",
+  "Lat": [-46.64, -68.40],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 1.5": 97.2,
+  "url":  "https://www.total-eren.com/es/realisation-eren/vientos-los-hercules/"
+   },
+
+
+
+  "Diadema":
+  {
+  "Desarrollo": "Hychico - Capex",
+  "Potencia": 6.3,
+  "Generadores": "Enercon E44",
+  "Pot. unitaria": 0.9,
+  "Cantidad": 5,
+  "Provincia": "Santa Cruz",
+  "Localidad": "Diadema",
+  "Lat": [-45.75, -67.70],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Genren": 6.3,
+  "url":  ["wikipedia","http://www.hychico.com.ar/eng/index.html","https://www.capex.com.ar/negocios-renovables.php"]
+   },
+
+  "Diadema 2":
+  {
+  "Desarrollo": "Hychico - Capex",
+  "Potencia": 27.6,
+  "Generadores": "Enercon E82",
+  "Pot. unitaria": 3.02,
+  "Cantidad": 9,
+  "Provincia": "Santa Cruz",
+  "Localidad": "Diadema",
+  "Lat": [-45.76, -67.65],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 2":27.2,
+  "url":  ["wikipedia","http://www.hychico.com.ar/eng/index.html","https://www.capex.com.ar/negocios-renovables.php"]
+   },
+
+  "El Tordillo":
+  {
+  "Desarrollo": "ENARSA",
+  "Potencia": 3,
+  "Generadores": "Impsa",
+  "Pot. unitaria": 1.5,
+  "Cantidad": 2,
+  "Provincia": "Santa Cruz",
+  "Localidad": "Escalante",
+  "Lat": [-45.85, -67.91],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Genren":3,
+  "url":  "wikipedia",
+  },
+
+  "Manantiales Behr":
+  {
+  "Desarrollo": "YPF",
+  "Potencia": 99,
+  "Generadores": "Vestas V112",
+  "Pot. unitaria": 3.3,
+  "Cantidad": 30,
+  "Provincia": "Chubut",
+  "Localidad": "Comodoro Rivadavia",
+  "Lat": [-45.67, -67.79],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "MATER": 99,
+  "FC declarado": 0.59,
+  "url":  "https://www.energiaestrategica.com/manantiales-behr-como-nunca-lo-viste-visita-360-por-el-parque-eolico-de-ypf-luz/"
+   },
+
+
+  "Cañadón León":
+  {
+  "Desarrollo": "YPF",
+  "Potencia": 101.52,
+  "Generadores": "GE Energy 4.2-117",
+  "Pot. unitaria": 4.2,
+  "Cantidad": 29,
+  "Provincia": "Santa Cruz",
+  "Localidad": "Pico Truncado",
+  "Lat": [-46.59, -67.64],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Renovar 2": 99,
+  "FC declarado": 0.53,
+  "Inicio": "2022-2",
+  "url": ["https://www.ypf.com/YPFHoy/YPFSalaPrensa/Paginas/Noticias/YPF-Luz-avanza-con-la-obra-del-parque-eolico-Canadon-Leon.aspx","https://ypfluz.com/RI/NuestrosActivos","https://www.energiaestrategica.com/ypf-luz-puso-en-marcha-canadon-leon-su-tercer-parque-eolico/"]
+  },
+
+  "Cañadón León - Ampli":
+  {
+  "Desarrollo": "YPF",
+  "Potencia": 21.15,
+  "Generadores": "GE Energy 4.2-117",
+  "Pot. unitaria": 4.2,
+  "Cantidad": 5,
+  "Provincia": "Santa Cruz",
+  "Localidad": "Pico Truncado",
+  "Lat": [-46.59, -67.64],
+  "Gmaps": "Sí",
+  "Estado": "Operando",
+  "Mater": 99,
+  "FC declarado": 0.53,
+  "Inicio": "2022-2",
+  "url": ["https://www.ypf.com/YPFHoy/YPFSalaPrensa/Paginas/Noticias/YPF-Luz-avanza-con-la-obra-del-parque-eolico-Canadon-Leon.aspx","https://ypfluz.com/RI/NuestrosActivos","https://www.energiaestrategica.com/ypf-luz-puso-en-marcha-canadon-leon-su-tercer-parque-eolico/"]
+  },
+
+  "Malaspina":
+  {
+  "Desarrollo": "Total Eren",
+  "Potencia": 50.4,
+  "Generadores": "Senvion 3.6M114NES",
+  "Pot. unitaria": 1.5,
+  "Cantidad": 2,
+  "Provincia": "Chubut",
+  "Localidad": "Ameghino",
+  "Lat": [-44.9757, -67.0592],
+  "Gmaps": "siperono",
+  "Estado": "Operando",
+  "RES 202":50.4,
+  "Inicio": "2020-3",
+  "url":  ["https://www.total-eren.com/es/realisation-eren/malaspina/","https://www.energiaestrategica.com/total-eren-pone-en-marcha-del-parque-eolico-malaspina-de-50-mw-en-argentina/"]
+  },
+
+  "Garayalde":
+  {
+  "Desarrollo": "Pan American Energy",
+  "Potencia": 24.15,
+  "Generadores": " Vestas V126/3450",
+  "Pot. unitaria": 3.45,
+  "Cantidad": 7,
+  "Provincia": "Chubut",
+  "Localidad": "Garayalde",
+  "Lat": [-44.55560747308003, -66.48048347198126],
+  "Gmaps": "sí",
+  "Obs": "se ve en google street view",
+  "Estado": "Operando",
+  "Renovar 1":24.15,
+  "Inicio": "2021-12",
+  "url":  ["https://www.total-eren.com/es/realisation-eren/malaspina/", "https://www.thewindpower.net/windfarm_en_30792_garayalde.php","https://www.telam.com.ar/notas/201812/316785-energia-parque-eolico-garayalde.html"]
+  },
+
+ "Kosten":
+  {
+  "Desarrollo": "Grenergy Argentina",
+  "Potencia": 24,
+  "Generadores": "Senvion 3.4M114",
+  "Provincia": "Chubut",
+  "Localidad": "Pampa del Castillo",
+  "Lat": [-45.81058710127217, -68.05550833469789],
+  "Gmaps": "sí",
+  "Obs": "se ve en google street view",
+  "Estado": "Operando",
+  "Renovar 1":24.15,
+  "Inicio": "2021-3",
+  "url":  ["https://www.energiaestrategica.com/chubut-el-parque-eolico-kosten-cerro-financiamiento-con-un-banco-aleman/","http://revistanuevasenergias.com/2021/03/30/luque-en-el-parque-eolico-kosten-los-7-aerogeneradores-produciran-energia-para-la-ciudad-y-la-region/"]
+  }
+
+}
+

@@ -20,7 +20,7 @@ for file in list_files:
 
     u10m = u10m.astype("float32")
     v10m = v10m.astype("float32")
-    ws10m = u10m**2 + v10m**2
+    ws10m = np.sqrt(u10m**2 + v10m**2)
 
     full_name_out = os.path.join(path_out, file)
-    np.savez(full_name_out, W10M=ws10m, latitude=lat, longitude=lon)
+    np.savez(full_name_out, WS10M=ws10m, latitude=lat, longitude=lon)
