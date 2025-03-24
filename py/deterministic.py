@@ -20,7 +20,7 @@ def bias(reference_arr, forecast_arr):
             "Shapes of reference_arr and forecast_arr must match (year, lat, lon)."
         )
 
-    bias = np.nanmean(forecast_arr - reference_arr)
+    bias = np.nanmean(forecast_arr - reference_arr, axis=0)
     return bias
 
 
@@ -36,7 +36,7 @@ def mae(reference_arr, forecast_arr):
         numpy.ndarray: MAE values with shape (lat, lon).
     """
 
-    mae = np.nanmean(np.abs(forecast_arr - reference_arr))
+    mae = np.nanmean(np.abs(forecast_arr - reference_arr), axis=0)
     return mae
 
 
@@ -75,13 +75,13 @@ def nrmsess_cross_validated(reference_arr, forecast_arr):
 
     num = np.sqrt(
         np.nanmean(
-            (forecast_arr - forecast_arr_mean + reference_arr_mean - reference_arr_mean)
+            (forecast_arr - forecast_arr_mean + reference_arr_mean - reference_arr)
             ** 2,
             axis=0,
         )
     )
 
-    denom = np.sqrt(np.nanmean((reference_arr_mean - reference_arr_mean) ** 2, axis=0))
+    denom = np.sqrt(np.nanmean((reference_arr - reference_arr_mean) ** 2, axis=0))
 
     nrmsess = 1 - num / denom
     return nrmsess
