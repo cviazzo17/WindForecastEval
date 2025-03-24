@@ -1,5 +1,9 @@
 import numpy as np
-from py.deterministic import acc_cross_validated
+import sys
+import os
+
+sys.path.append(os.path.abspath("../py"))
+from deterministic import acc_cross_validated
 
 
 def var_noise(forecast_arr):
